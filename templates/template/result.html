@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risultato del test</title>
+</head>
+<body>
+    <h1>Il tuo colore emotivo è...</h1>
+    {% if color == 'A' %}
+    <p><strong>Blu:</strong> Sei una persona calma, riflessiva e pacata. Il tuo equilibrio interiore è la tua forza.</p>
+    {% elif color == 'B' %}
+    <p><strong>Giallo:</strong> Sei solare, ottimista e pieno di energia. Porti luce ovunque vai.</p>
+    {% elif color == 'C' %}
+    <p><strong>Lilla:</strong> Sei profondo, sensibile e creativo. Le emozioni sono la tua bussola.</p>
+    {% elif color == 'D' %}
+    <p><strong>Arancione:</strong> Sei determinato, passionale e orientato all’azione. Non ti fermi davanti a nulla.</p>
+    {% endif %}
+    <br><a href="/">Torna al test</a>
+</body>
+</html>
